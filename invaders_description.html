@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Space Invaders</title>
+   </head>
+   <style>
+      .row {
+         display: flex;
+         justify-content: left;
+      }
+      p{
+         display: flex;
+         flex: 33.33%;
+         align-items: center;
+         margin-left: 20%;
+         margin-right: 10%;
+      }
+      p.a{
+         font-family: "Lucida Console", "Courier New", monospace;
+      }
+      h1.a{
+         font-family: "Lucida Console", "Courier New", monospace;
+      }
+      .snake{
+         margin-right: 10%;
+      }
+      .play {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+   </style>
+
+   <body style="background-color:rgb(0, 0, 0);">
+
+      <div class="row">
+         <a href="./index.html"> 
+            <img src="./assets/Main_Logo.png" alt="Main_Logo" style="width:200px;height:240px;" class="logo">
+         </a>
+         <div>
+            <br></br>
+            <br></br>
+            <a href="./index.html" style="text-decoration:none"> 
+               <h1 style="color:white" class="a"> Home </h1>
+            </a>
+         </div>
+      </div>
+
+      <div class="row">
+         <div> 
+            <p style="color:white; " class="a">Description: </p>
+            <p style="color:white;" class="a">Space Invaders is a fixed shooter in which the player moves a laser cannon horizontally across the bottom of the screen and fires at aliens overhead</p>
+            <p style="color:white;" class="a">The goal is to eliminate all the aliens by shooting them. Aliens will attempt to destroy the player's ship by firing projectiles. The game ends when your ship is destroyed</p>
+            <br>
+            <p style="color:white;" class="a">Controls: </p>
+            <p style="color:white;" class="a">The user controls the direction of the spaceship </p>
+            <p style="color:white;" class="a">(left or right) using the keys W and D, and spacebar to shoot.</p>
+         </div>
+         <img src="./assets/invaders_icon.png"  alt="Snake" style="width:200px;height: 240px;" class="snake">
+      </div>
+      <br></br>
+
+      <div>
+      <a href="./invaders.html">
+        <img src="./assets/Play_Button.png"  alt="Snake" style="width:120px;height: 60px;" class="play">
+      </a>
+      </div>
+    </body>
+</html>
